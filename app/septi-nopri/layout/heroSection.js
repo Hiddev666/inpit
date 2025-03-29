@@ -15,9 +15,9 @@ const worksans = Work_Sans({
 
 const HeroSection = (props) => {
     return (
-        <div className="bg-neutral-800 h-screen bg-[url(/img/septi-nopri/Frame2.svg)] bg-cover bg-top flex flex-col justify-between items-center p-10 relative" id="hero">
+        <div className="bg-neutral-800 h-screen bg-[url(/img/septi-nopri/heroImage.png)] bg-cover bg-top flex flex-col justify-between items-center p-10 relative" id="hero">
             <Image
-                src={"/img/septi-nopri/leave.svg"}
+                src={"/img/septi-nopri/leaves.png"}
                 width={200}
                 height={200}
                 className="absolute right-0 bottom-0"
@@ -25,7 +25,7 @@ const HeroSection = (props) => {
                 alt="Leaves"
                 />
             <Image
-                src={"/img/septi-nopri/leave.svg"}
+                src={"/img/septi-nopri/leaves.png"}
                 width={230}
                 height={230}
                 className="absolute left-0 top-0 rotate-180"
