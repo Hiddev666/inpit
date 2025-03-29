@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+*, html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,4 +29,60 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+#leaves {
+    animation: 3s ease-in-out leavesAnimation infinite;
+}
+
+#leaves-top {
+    animation: 3s ease-in-out leavesTopAnimation infinite;
+}
+
+#leave-updown {
+    animation: 3s ease-in-out leavesUpDown infinite;
+}
+
+@keyframes leavesAnimation {
+    0% {
+        right: -2%;
+    }
+
+    40% {
+        right: 0%;
+        bottom: 2%;
+    }
+
+    100% {
+        right: -2%;
+    }
+}
+
+@keyframes leavesTopAnimation {
+    0% {
+        left: -2%;
+    }
+
+    40% {
+        left: 0%;
+        top: 2%;
+    }
+
+    100% {
+        left: -2%;
+    }
+}
+
+@keyframes leavesUpDown {
+    0% {
+        top: -10%;
+    }
+
+    50% {
+        top: 0%;
+    }
+
+    100% {
+        top: -10%;
+    }
 }
