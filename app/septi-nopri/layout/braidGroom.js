@@ -13,7 +13,7 @@ const worksans = Work_Sans({
 
 const BraidGroom = () => {
     return (
-        <div className="w-full p-10 flex flex-col items-center gap-10" id="braidgroom">
+        <div className="w-full p-10 flex flex-col items-center gap-10 bg-white" id="braidgroom">
             <div className="flex flex-col gap-3 items-center justify-center">
                 <div className="h-max w-full relative flex justify-center item-end">
                     <Image

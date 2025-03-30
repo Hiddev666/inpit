@@ -5,6 +5,18 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #eaeaea;
+}
+
+#bubble-left {
+    border-radius: 0px 10px 10px 10px;
+}
+
+#bubble-right {
+    border-radius: 10px 0px 10px 10px;
+}
+
 /*
 :root {
   --background: #ffffff;
