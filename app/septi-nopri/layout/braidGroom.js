@@ -25,14 +25,14 @@ const BraidGroom = () => {
                         alt="Groom Leaves"
                         />
                     <Image
-                        src={"/img/septi-nopri/braid-front.png"}
+                        src={"/img/septi-nopri/braid-front.svg"}
                         width={250}
                         height={250}
                         className="absolute bottom-0 h-full"
                         alt="Braid Front"
                         />
                     <Image
-                        src={"/img/septi-nopri/braid-back.png"}
+                        src={"/img/septi-nopri/braid-back.svg"}
                         width={250}
                         height={250}
                         className=""
@@ -55,14 +55,14 @@ const BraidGroom = () => {
                         alt="Groom Leaves"
                         />
                     <Image
-                        src={"/img/septi-nopri/groom-front.png"}
+                        src={"/img/septi-nopri/groom-front.svg"}
                         width={250}
                         height={250}
                         className="absolute bottom-0 h-full"
                         alt="Groom Front"
                         />
                     <Image
-                        src={"/img/septi-nopri/groom-back.png"}
+                        src={"/img/septi-nopri/groom-back.svg"}
                         width={250}
                         height={250}
                         className=""

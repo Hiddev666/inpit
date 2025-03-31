@@ -8,6 +8,8 @@ import { Suspense, useEffect, useState } from "react";
 import Gallery from "./layout/gallery";
 import LoveStory from "./layout/loveStory";
 import Image from "next/image";
+import DigitalEnvelope from "./layout/digitalEnvelope";
+import Wish from "./layout/wish";
 
 const InpitSeptiNopri = () => {
     return (
@@ -56,6 +58,8 @@ const Content = () => {
                 <BraidGroom />
                 <Gallery />
                 <LoveStory />
+                <DigitalEnvelope />
+                <Wish />
             </div>
         </div>
     );
