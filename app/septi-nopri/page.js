@@ -10,6 +10,8 @@ import LoveStory from "./layout/loveStory";
 import Image from "next/image";
 import DigitalEnvelope from "./layout/digitalEnvelope";
 import Wish from "./layout/wish";
+import Last from "./layout/end";
+import Footer from "../components/footer";
 
 const InpitSeptiNopri = () => {
     return (
@@ -60,6 +62,8 @@ const Content = () => {
                 <LoveStory />
                 <DigitalEnvelope />
                 <Wish />
+                <Last />
+                <Footer />
             </div>
         </div>
     );
