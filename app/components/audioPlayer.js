@@ -5,13 +5,21 @@ import { Play, Pause } from "lucide-react"
 import { Button } from '@material-tailwind/react';
 
 const AudioPlayer = () => {
-    const [isPlaying, setIsPlaying] = useState(true);
+    const [isPlaying, setIsPlaying] = useState(false);
     const audioRef = useRef(null);
+    const buttonRef = useRef(null);
 
     useEffect(() => {
-        if (audioRef.current) {
-            audioRef.current.play().catch(() => setIsPlaying(false));
-        }
+        const handleUserInteraction = () => {
+            if (audioRef.current) {
+                audioRef.current.play();
+                document.removeEventListener("click", handleUserInteraction);
+                setIsPlaying(!isPlaying);
+            }
+        };
+
+        document.addEventListener("click", handleUserInteraction);
+        return () => document.removeEventListener("click", handleUserInteraction);
     }, []);
 
     const togglePlay = () => {
@@ -26,9 +34,9 @@ const AudioPlayer = () => {
     };
 
     return (
-        <div className='fixed z-200 bottom-7 right-7'>
-            <audio ref={audioRef} src="/audio/septi-nopri.mp3" preload="auto" autoPlay/>
-            <Button onClick={togglePlay} size="icon" variant="outline" className='bg-[#566E51] p-2'>
+        <div className='fixed z-200 bottom-5 right-5'>
+            <audio ref={audioRef} src="/audio/septi-nopri.mp3" preload="auto" autoPlay />
+            <Button onClick={togglePlay} size="icon" variant="outline" className='bg-[#566E51] p-2' ref={buttonRef}>
                 {isPlaying ? <Pause size={20} /> : <Play size={20} />}
             </Button>
         </div>
