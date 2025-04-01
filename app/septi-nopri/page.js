@@ -53,14 +53,7 @@ const Content = () => {
 
     return (
         <>
-            <NextSeo
-                title="Septi & Nopri Wedding"
-                description="Undangan Pernikahan Digital Septi & Nopri"
-                openGraph={{
-                    title: "Septi & Nopri Wedding",
-                    description: "Undangan Pernikahan Digital Septi & Nopri",
-                }}
-            />
+
             <div className="flex flex-col items-center w-full">
                 {visible && (
                     <Loader />
