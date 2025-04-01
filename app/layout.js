@@ -23,8 +23,8 @@ export const metadata = {
         images: [
             {
                 url: "/img/septi-nopri/thumbnail.png", // Ganti dengan URL gambar lo
-                width: 964,
-                height: 720,
+                width: 1200,
+                height: 630,
                 alt: "Thumbnail gambar",
             },
         ],
