@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono, Berkshire_Swash, Bokor } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const bokor = Bokor({
     weight: "400",

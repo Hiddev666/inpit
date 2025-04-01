@@ -12,6 +12,8 @@ import DigitalEnvelope from "./layout/digitalEnvelope";
 import Wish from "./layout/wish";
 import Last from "./layout/end";
 import Footer from "../components/footer";
+import Head from "next/head";
+import { NextSeo } from "next-seo";
 
 const InpitSeptiNopri = () => {
     return (
@@ -50,22 +52,32 @@ const Content = () => {
     }
 
     return (
-        <div className="flex flex-col items-center w-full">
-            {visible && (
-                <Loader />
-            )}
-            <div className="w-md">
-                <GreetingPopUp guest={to} />
-                <HeroSection />
-                <BraidGroom />
-                <Gallery />
-                <LoveStory />
-                <DigitalEnvelope />
-                <Wish />
-                <Last />
-                <Footer />
+        <>
+            <NextSeo
+                title="Septi & Nopri Wedding"
+                description="Undangan Pernikahan Digital Septi & Nopri"
+                openGraph={{
+                    title: "Septi & Nopri Wedding",
+                    description: "Undangan Pernikahan Digital Septi & Nopri",
+                }}
+            />
+            <div className="flex flex-col items-center w-full">
+                {visible && (
+                    <Loader />
+                )}
+                <div className="w-md">
+                    <GreetingPopUp guest={to} />
+                    <HeroSection />
+                    <BraidGroom />
+                    <Gallery />
+                    <LoveStory />
+                    <DigitalEnvelope />
+                    <Wish />
+                    <Last />
+                    <Footer />
+                </div>
             </div>
-        </div>
+        </>
     );
 };
 
