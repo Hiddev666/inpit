@@ -22,9 +22,9 @@ export const metadata = {
         type: "website",
         images: [
             {
-                url: "/img/testing.jpeg", // Ganti dengan URL gambar lo
-                width: 1200,
-                height: 630,
+                url: "/img/septi-nopri/thumbnail.png", // Ganti dengan URL gambar lo
+                width: 964,
+                height: 720,
                 alt: "Thumbnail gambar",
             },
         ],
