@@ -15,7 +15,7 @@ const BraidGroom = () => {
     return (
         <div className="w-full p-10 flex flex-col items-center gap-10 bg-white" id="braidgroom">
             <div className="flex flex-col gap-3 items-center justify-center">
-                <div className="h-max w-full relative flex justify-center item-end">
+                <div className="h-max w-full relative flex justify-center item-end" data-aos="zoom-in-up">
                     <Image
                         src={"/img/septi-nopri/groom-leave.svg"}
                         width={350}
@@ -45,7 +45,7 @@ const BraidGroom = () => {
                 </div>
             </div>
             <div className="flex flex-col gap-3 items-center justify-center">
-                <div className="h-max w-full relative flex justify-center item-end">
+                <div className="h-max w-full relative flex justify-center item-end" data-aos="zoom-in-up">
                     <Image
                         src={"/img/septi-nopri/groom-leave.svg"}
                         width={350}

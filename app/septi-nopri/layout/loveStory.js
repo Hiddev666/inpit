@@ -24,16 +24,17 @@ const LoveStory = () => {
                             height={40}
                             alt="Braid"
                             className="rounded-full"
+                            data-aos="zoom-in-right"
                         />
                     </div>
-                    <div className="border-1 border-gray-200 p-3 bg-gray-100" id="bubble-left">
-                        <p className={`${worksans.className} text-sm`}><span className="font-semibold">Pertemuan</span><br />Kami berkenalan pada september 2019 di media sosial. Sebenarnya awalnya sudah lama kenal,cuma sebatas kenal dan tau saja.
-                            Hingga akhirnya ada kesepatan bertemu di event olahraga yang kami tekuni,kebetulan kami sama-sama mengikuti kejuaran olahraga tersebut pada bulan oktober 2019.
+                    <div className="border-1 border-gray-200 p-3 bg-gray-100" id="bubble-left" data-aos="zoom-in-right" data-aos-delay="300">
+                        <p className={`${worksans.className} text-sm`}><span className="font-semibold">Pertemuan</span><br />Kami berkenalan pada September 2019 di media sosial. Sebenarnya awalnya sudah lama kenal, cuma sebatas kenal dan tau saja.
+                            Hingga akhirnya ada kesempatan bertemu di event olahraga yang kami tekuni, kebetulan kami sama-sama mengikuti kejuaraan olahraga tersebut pada bulan Oktober 2019.
                         </p>
                     </div>
                 </div>
                 <div className="flex gap-2 justify-end w-full">
-                    <div className="border-1 border-gray-200 p-3" id="bubble-right">
+                    <div className="border-1 border-gray-200 p-3" id="bubble-right" data-aos="zoom-in-left" data-aos-delay="300">
                         <p className={`${worksans.className} text-sm`}><span className="font-semibold">Pendekatan</span><br />
                             Kami semakin dekat satu sama lain. Seringkali bertukar cerita dan menghabiskan waktu bersama. Lambat laun, perasaan nyaman itu berubah menjadi sayang dan cinta yang tidak terduga.
                         </p>
@@ -45,6 +46,7 @@ const LoveStory = () => {
                             height={40}
                             alt="Braid"
                             className="rounded-full"
+                            data-aos="zoom-in-left"
                         />
                     </div>
                 </div>
@@ -56,16 +58,17 @@ const LoveStory = () => {
                             height={40}
                             alt="Braid"
                             className="rounded-full"
+                            data-aos="zoom-in-right"
                         />
                     </div>
-                    <div className="border-1 border-gray-200 p-3 bg-gray-100" id="bubble-left">
+                    <div className="border-1 border-gray-200 p-3 bg-gray-100" id="bubble-left" data-aos="zoom-in-right" data-aos-delay="300">
                         <p className={`${worksans.className} text-sm`}><span className="font-semibold">Menjalin Hubungan</span><br />
                             Memutuskan untuk saling menyatakan perasaan adalah bagian dari perjalanan kisah kami. Berpacaran kurang lebih 5 tahun, tentu saja banyak terpaan badai permasalahan yang menghadang. Tapi kami berhasil melewatinya.
                         </p>
                     </div>
                 </div>
                 <div className="flex gap-2">
-                    <div className="border-1 border-gray-200 p-3" id="bubble-right">
+                    <div className="border-1 border-gray-200 p-3" id="bubble-right" data-aos="zoom-in-left" data-aos-delay="300">
                         <p className={`${worksans.className} text-sm`}><span className="font-semibold">Menikah</span><br />
                             Tahun 2025 menjadi langkah baru bagi kami untuk membina bahtera rumah tangga. Dengan keyakinan dan kepercayaan bahwa inilah takdir yang Tuhan anugerahkan. Kami sepakat untuk mengikat janji suci dalam biduk pernikahan
                         </p>
@@ -77,6 +80,7 @@ const LoveStory = () => {
                             height={40}
                             alt="Braid"
                             className="rounded-full"
+                            data-aos="zoom-in-left"
                         />
                     </div>
                 </div>

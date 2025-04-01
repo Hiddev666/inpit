@@ -16,7 +16,7 @@ const DigitalEnvelope = () => {
         <div className="w-full p-10 flex flex-col items-center gap-10  bg-[url(/img/septi-nopri/blured2.png)] bg-cover bg-bottom" id="gallery">
             <p className={`text-4xl text-white ${berkshire.className} overflow-hidden`}>Amplop Digital</p>
             <div className="w-full flex flex-col justify-center gap-4">
-                <div className="bg-white p-4 rounded-lg flex flex-col gap-5">
+                <div className="bg-white p-4 rounded-lg flex flex-col gap-5" data-aos="flip-up">
                     <div className="flex justify-between">
                         <Image
                             src={"/img/septi-nopri/sumselbabel.png"}
@@ -39,7 +39,7 @@ const DigitalEnvelope = () => {
                         <p className="font-semibold">Septi Kurnia</p>
                     </div>
                 </div>
-                <div className="bg-white p-4 rounded-lg flex flex-col gap-5">
+                <div className="bg-white p-4 rounded-lg flex flex-col gap-5" data-aos="flip-up">
                     <div className="flex justify-between">
                         <Image
                             src={"/img/septi-nopri/bni.png"}

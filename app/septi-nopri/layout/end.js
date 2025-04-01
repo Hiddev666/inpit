@@ -17,13 +17,14 @@ const Last = () => {
 
     return (
         <div className="w-full p-10 flex flex-col items-center gap-10 bg-white" id="Last">
-            <div className="w-full p-3 flex flex-col gap-5">
+            <div className="w-full p-3 flex flex-col gap-5 overflow-hidden">
                 <Image
                     src={"/img/septi-nopri/last.svg"}
                     width={100}
                     height={100}
                     alt="Last"
                     className="w-full"
+                    data-aos="zoom-in-up"
                 />
                 <div>
                     <p className={`${berkshire.className} text-2xl`}>Terima Kasih</p>

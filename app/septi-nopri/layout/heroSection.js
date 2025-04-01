@@ -23,7 +23,7 @@ const HeroSection = (props) => {
                 className="absolute right-0 bottom-0"
                 id="leaves"
                 alt="Leaves"
-                />
+            />
             <Image
                 src={"/img/septi-nopri/leaves.png"}
                 width={230}
@@ -31,18 +31,19 @@ const HeroSection = (props) => {
                 className="absolute left-0 top-0 rotate-180"
                 id="leaves-top"
                 alt="Leaves"
-                />
+            />
             <div className="w-3/4 flex flex-col items-center gap-5">
                 <Image
                     src={"/img/septi-nopri/logo.svg"}
                     width={100}
                     height={100}
                     alt="Logo"
-                    />
+                    data-aos="zoom-in"
+                />
                 <Countdown font={worksans.className} />
             </div>
-            <div className="w-full flex justify-between text-white gap-4">
-                <div className="w-full flex flex-col gap-3">
+            <div className="w-full flex justify-between text-white gap-4 overflow-hidden">
+                <div className="w-full flex flex-col gap-3" data-aos="fade-up">
                     <h2 className={`${berkshire.className} text-3xl`}>Resepsi</h2>
                     <div className="flex flex-col gap-1">
                         <p className={`${worksans.className} font-semibold`}>Minggu, 13 April 2025</p>
@@ -57,12 +58,13 @@ const HeroSection = (props) => {
                                 width={15}
                                 height={15}
                                 alt="Location"
-                                />
+                                data-aos="flip-up"
+                            />
                             Buka Maps
                         </div>
                     </a>
                 </div>
-                <div className="w-full flex flex-col gap-2">
+                <div className="w-full flex flex-col gap-2" data-aos="fade-up">
                     <h2 className={`${berkshire.className} text-3xl`}>Akad Nikah</h2>
                     <div className="flex flex-col gap-1">
                         <p className={`${worksans.className} font-semibold`}>Sabtu, 12 April 2025</p>
@@ -77,7 +79,8 @@ const HeroSection = (props) => {
                                 width={15}
                                 height={15}
                                 alt="Location"
-                                />
+                                data-aos="flip-up"
+                            />
                             Buka Maps
                         </div>
                     </a>

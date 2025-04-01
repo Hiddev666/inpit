@@ -33,16 +33,16 @@ const Countdown = (props) => {
     }, 1000);
 
     return (
-        <div className={`${props.font} flex w-full justify-between h-min`}>
-            <div className="">
+        <div className={`${props.font} flex w-full justify-between h-min overflow-hidden`}>
+            <div className="" data-aos="zoom-in-right" data-aos-duration="3000">
                 <h1 className="text-white text-5xl overflow-hidden font-semibold">{day}</h1>
                 <p className="text-white text-center">Hari</p>
             </div>
-            <div className="">
+            <div className="" data-aos="zoom-in-up" data-aos-duration="3000">
                 <h1 className="text-white text-5xl overflow-hidden font-semibold">{hour}</h1>
                 <p className="text-white text-center">Jam</p>
             </div>
-            <div className="">
+            <div className="" data-aos="zoom-in-left" data-aos-duration="3000">
                 <h1 className="text-white text-5xl overflow-hidden font-semibold">{minute}</h1>
                 <p className="text-white text-center">Menit</p>
             </div>
