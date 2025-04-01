@@ -40,7 +40,7 @@ const BraidGroom = () => {
                         />
                 </div>
                 <div className="w-3/4 flex flex-col gap-2 overflow-hidden">
-                    <h1 className={`${berkshire.className} text-4xl overflow-hidden`}>Septi Kurnia, S.Pd., Gr.</h1>
+                    <h1 className={`${berkshire.className} text-2xl overflow-hidden`}>Septi Kurnia, S.Pd., Gr.</h1>
                     <p className={`${worksans.className}`}>Putri Bungsu dari Bapak Nungcik & Ibu Rumnah (Almh)</p>
                 </div>
             </div>
