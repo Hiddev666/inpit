@@ -14,6 +14,7 @@ import Last from "./layout/end";
 import Footer from "../components/footer";
 import Head from "next/head";
 import { NextSeo } from "next-seo";
+import AudioPlayer from "../components/audioPlayer";
 
 const InpitSeptiNopri = () => {
     return (
@@ -58,7 +59,8 @@ const Content = () => {
                 {visible && (
                     <Loader />
                 )}
-                <div className="w-md">
+                <div className="w-md relative">
+                    <AudioPlayer />
                     <GreetingPopUp guest={to} />
                     <HeroSection />
                     <BraidGroom />
