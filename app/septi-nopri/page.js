@@ -15,6 +15,17 @@ import Footer from "../components/footer";
 import Head from "next/head";
 import { NextSeo } from "next-seo";
 import AudioPlayer from "../components/audioPlayer";
+import { Berkshire_Swash, Work_Sans } from "next/font/google"
+
+const berkshire = Berkshire_Swash({
+    subsets: ['latin'],
+    weight: "400"
+})
+
+const worksans = Work_Sans({
+    subsets: ['latin'],
+    weight: ["100", "200", "300", "400", "500", "600", "700", "800"]
+})
 
 const InpitSeptiNopri = () => {
     return (
@@ -33,7 +44,7 @@ const Content = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setVisible(false);
-        }, 3000);
+        }, 4000);
 
         return () => clearTimeout(timer);
     }, []);
@@ -41,13 +52,7 @@ const Content = () => {
     const Loader = () => {
         return (
             <div className="w-full h-screen fixed bg-white z-100 flex justify-center items-center">
-                <Image
-                    src={"/img/septi-nopri/logo2.svg"}
-                    width={200}
-                    height={200}
-                    alt="Logo"
-                    className=""
-                />
+                <h1 className={`text-3xl sm:text-4xl ${berkshire.className} text-neutral-900 overflow-hidden`}>Septi<br />& Nopri</h1>
             </div>
         )
     }
@@ -59,7 +64,7 @@ const Content = () => {
                 {visible && (
                     <Loader />
                 )}
-                <div className="w-md relative">
+                <div className="w-full sm:w-md relative">
                     <AudioPlayer />
                     <GreetingPopUp guest={to} />
                     <HeroSection />

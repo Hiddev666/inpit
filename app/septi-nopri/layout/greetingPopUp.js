@@ -13,18 +13,18 @@ const worksans = Work_Sans({
 
 const GreetingPopUp = (props) => {
     return (
-        <div className="bg-neutral-800 h-screen bg-[url(/img/septi-nopri/greetingImage.svg)] bg-cover bg-top flex items-end p-10 relative">
+        <div className="bg-neutral-800 h-screen bg-[url(/img/septi-nopri/greetingImage.png)] bg-cover bg-top flex items-end p-10 relative">
             <Image
                 src={"/img/septi-nopri/leaves.png"}
-                width={300}
-                height={300}
+                width={230}
+                height={230}
                 className="absolute right-0 bottom-0"
                 id="leaves"
                 alt="Leaves"
                 />
             <div className="flex flex-col gap-5">
                 <div>
-                    <h1 className={`text-7xl md:text-6xl ${berkshire.className} text-white overflow-hidden`}>Septi<br />& Nopri</h1>
+                    <h1 className={`text-6xl sm:text-7xl ${berkshire.className} text-white overflow-hidden`}>Septi<br />& Nopri</h1>
                 </div>
                 <div className={`${worksans.className} flex flex-col gap-3`}>
                     <div>
