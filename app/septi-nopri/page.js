@@ -16,6 +16,7 @@ import Head from "next/head";
 import { NextSeo } from "next-seo";
 import AudioPlayer from "../components/audioPlayer";
 import { Berkshire_Swash, Work_Sans } from "next/font/google"
+import Detail from "./layout/details";
 
 const berkshire = Berkshire_Swash({
     subsets: ['latin'],
@@ -68,6 +69,7 @@ const Content = () => {
                     <AudioPlayer />
                     <GreetingPopUp guest={to} />
                     <HeroSection />
+                    <Detail />
                     <BraidGroom />
                     <Gallery />
                     <LoveStory />
