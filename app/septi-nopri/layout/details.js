@@ -17,9 +17,9 @@ const Detail = () => {
     return (
         <div className="w-full flex flex-col justify-between text-neutral-900 gap-8 overflow-hidden p-10 bg-white">
             <div className="w-full flex flex-col gap-3" data-aos="fade-up">
-                <h2 className={`${berkshire.className} text-3xl`}>Resepsi</h2>
+                <h2 className={`${berkshire.className} text-3xl overflow-hidden`}>Resepsi</h2>
                 <div className="flex flex-col gap-1">
-                    <p className={`${worksans.className} font-semibold`}>Minggu, 13 April 2025</p>
+                    <p className={`${worksans.className} font-semibold`}>Minggu, 13 April 2025 | 10.00 WIB</p>
                     <p className={`${worksans.className} text-sm`}>
                         Lapangan Serbaguna Komplek Kencana Damai RT.035 RW.010 Kelurahan Sukamaju Kecamatan Sako Kota Palembang
                     </p>
@@ -38,9 +38,9 @@ const Detail = () => {
                 </a>
             </div>
             <div className="w-full flex flex-col gap-2" data-aos="fade-up">
-                <h2 className={`${berkshire.className} text-3xl`}>Akad Nikah</h2>
+                <h2 className={`${berkshire.className} text-3xl overflow-hidden`}>Akad Nikah</h2>
                 <div className="flex flex-col gap-1">
-                    <p className={`${worksans.className} font-semibold`}>Sabtu, 12 April 2025</p>
+                    <p className={`${worksans.className} font-semibold`}>Sabtu, 12 April 2025 | 14.00 WIB</p>
                     <p className={`${worksans.className} text-sm`}>
                         Kediaman Mempelai Wanita Komplek Kencana Damai Blok AH-03 RT.060 RW.010 Kelurahan Sukamaju Kecamatan Sako Kota Palembang
                     </p>

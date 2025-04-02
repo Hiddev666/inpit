@@ -13,7 +13,7 @@ const worksans = Work_Sans({
 
 const GreetingPopUp = (props) => {
     return (
-        <div className="bg-neutral-800 h-screen bg-[url(/img/septi-nopri/greetingImage.png)] bg-cover bg-top flex items-end p-10 relative" id="greeting">
+        <div className="bg-neutral-800 h-svh bg-[url(/img/septi-nopri/greetingImage.png)] bg-cover bg-top flex items-end p-10 relative" id="greeting">
             <Image
                 src={"/img/septi-nopri/leaves.png"}
                 width={230}

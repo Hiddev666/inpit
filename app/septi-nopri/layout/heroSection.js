@@ -15,7 +15,7 @@ const worksans = Work_Sans({
 
 const HeroSection = (props) => {
     return (
-        <div className="bg-neutral-800 h-screen bg-[url(/img/septi-nopri/heroImage.png)] bg-cover bg-top flex flex-col justify-start items-center p-10 relative" id="hero">
+        <div className="bg-neutral-800 bg-[url(/img/septi-nopri/blured.png)] bg-cover bg-center overflow-hidden flex flex-col justify-start items-center p-10 relative" id="hero">
             <Image
                 src={"/img/septi-nopri/leaves.png"}
                 width={200}

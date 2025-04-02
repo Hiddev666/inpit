@@ -17,6 +17,8 @@ import { NextSeo } from "next-seo";
 import AudioPlayer from "../components/audioPlayer";
 import { Berkshire_Swash, Work_Sans } from "next/font/google"
 import Detail from "./layout/details";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const berkshire = Berkshire_Swash({
     subsets: ['latin'],
@@ -29,6 +31,13 @@ const worksans = Work_Sans({
 })
 
 const InpitSeptiNopri = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            once: false,
+        })
+    }, [])
+
     return (
         <Suspense fallback={<div>Loading ... </div>}>
             <Content />
@@ -68,17 +77,18 @@ const Content = () => {
     const Loader = () => {
         return (
             <div className="w-full h-screen fixed bg-white z-100 flex justify-center items-center">
-                <div className="flex flex-col gap-3">
-                    <h1 className={`text-3xl sm:text-4xl ${berkshire.className} text-neutral-900 overflow-hidden`}>Septi<br />& Nopri</h1>
+                <div className="flex flex-col gap-3 overflow-hidden">
+                    <h1 className={`text-3xl sm:text-4xl ${berkshire.className} text-neutral-900 overflow-hidden`} data-aos="fade-up" data-aos-once="true">Septi<br />& Nopri</h1>
                     <a href="#greeting">
-                        <button className="cursor-pointer font-medium flex gap-2 p-2 rounded-md w-max bg-[#566E51] text-white" onClick={() => setLoadingVisible(true)}>
+                        <button className="cursor-pointer font-medium flex gap-2 p-2 rounded-md w-max bg-[#566E51] text-white" onClick={() => setLoadingVisible(true)} data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
                             <Image
                                 src={"/img/septi-nopri/envelope.svg"}
                                 width={20}
                                 height={20}
                                 alt="Envelope"
+                                data-aos="fade-right" data-aos-delay="300"
                             />
-                            Buka Undangan
+                            <p data-aos="fade-left" data-aos-delay="300">Buka Undangan</p>
                         </button>
                     </a>
                     {loadingVisible && (
