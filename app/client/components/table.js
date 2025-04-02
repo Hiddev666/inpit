@@ -56,10 +56,17 @@ Septi dan Nopri
 
 Wassalamualaikum Warahmatullahi Wabarakatuh`
         navigator.clipboard.writeText(message)
+        alert("Copied")
+    }
+
+    const deleteGuest = async (id) => {
+        await axios.delete(`https://api-inpit.vercel.app/api/v1/guests/${id}`).then((res) => {
+            console.log(res.data.message)
+        })
     }
 
     return (
-        <div className={`${worksans.className} flex flex-col gap-3 p-5 border-1 border-gray-200`}>
+        <div className={`${worksans.className} flex flex-col gap-3 p-5 border-1 border-gray-200 rounded-md`}>
             <div className="flex flex-col overflow-hidden">
                 <p className="text-3xl font-semibold overflow-hidden">Septi & Nopri</p>
                 <p className="">{guests.length} Guests</p>
@@ -70,11 +77,19 @@ Wassalamualaikum Warahmatullahi Wabarakatuh`
             </div>
             {guests.map((guest) => (
                 <div className="w-full flex justify-around items-center px-3" key={guest._id}>
-                    <div className="w-1/2">{guest.guestName}</div>
-                    <div className="w-1/2 flex justify-center">
-                        <button className="bg-neutral-800 rounded-md p-2 text-xs text-white" onClick={() => copyInvitation(guest.guestName, guest.url)}>
+                    <div className="w-1/2 text-sm">{guest.guestName}</div>
+                    <div className="w-1/2 flex justify-center gap-2">
+                        <button className="cursor-pointer bg-green-800 rounded-md p-2 text-xs text-white" onClick={() => copyInvitation(guest.guestName, guest.url)}>
                             <Image
                                 src={"/img/copy-icon.svg"}
+                                width={15}
+                                height={15}
+                                alt="copy"
+                            />
+                        </button>
+                        <button className="cursor-pointer bg-red-800 rounded-md p-2 text-xs text-white" onClick={() => deleteGuest(guest._id)}>
+                            <Image
+                                src={"/img/delete-icon.svg"}
                                 width={15}
                                 height={15}
                                 alt="copy"
