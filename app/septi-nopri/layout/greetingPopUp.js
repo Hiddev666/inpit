@@ -13,7 +13,7 @@ const worksans = Work_Sans({
 
 const GreetingPopUp = (props) => {
     return (
-        <div className="bg-neutral-800 h-screen bg-[url(/img/septi-nopri/greetingImage.png)] bg-cover bg-top flex items-end p-10 relative">
+        <div className="bg-neutral-800 h-screen bg-[url(/img/septi-nopri/greetingImage.png)] bg-cover bg-top flex items-end p-10 relative" id="greeting">
             <Image
                 src={"/img/septi-nopri/leaves.png"}
                 width={230}
@@ -31,17 +31,6 @@ const GreetingPopUp = (props) => {
                         <p className="text-white text-sm p-0 mb-0">Kepada Yth.</p>
                         <p className={`text-2xl text-white p-0 mb-0 font-semibold`}>{props.guest}</p>
                     </div>
-                    <a href="#hero">
-                        <button className="bg-white font-semibold flex gap-2 p-2 rounded-md w-max">
-                            <Image
-                                src={"/img/septi-nopri/envelope.svg"}
-                                width={20}
-                                height={20}
-                                alt="Envelope"
-                            />
-                            Buka Undangan
-                        </button>
-                    </a>
                 </div>
             </div>
         </div>
