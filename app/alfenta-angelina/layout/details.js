@@ -23,14 +23,14 @@ const Detail = () => {
                 title="Akad Nikah"
                 date="Minggu, 21 September 2025 09:30 WIB"
                 address="Kediaman Mempelai Wanita Desa Tanjung Raja Dusun 2 No. 58, Kecamatan Muara Enim, Kabupaten Muara Enim"
-                map="/"
+                map="https://maps.app.goo.gl/wUKUr1sv3v4T4Lnb8"
             />
             <DetailCard2
                 time="September 28, 2025 10:00:00"
                 title="Ngunduh Mantu"
                 date="Minggu, 28 September 2025 10:00 WIB"
                 address="Gedung Serbaguna Kampung 1 Desa Tanjung Jambu, Kecamatan Merapi Timur, Kabupaten Lahat"
-                map="/"
+                map="https://maps.app.goo.gl/6Y4XAaoenuNA9eNP9"
             />
             {/* <div className="w-full flex flex-col gap-3" data-aos="fade-up">
                 <h2 className={`${berkshire.className} text-3xl overflow-hidden`}>Resepsi</h2>

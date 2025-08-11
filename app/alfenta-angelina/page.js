@@ -41,6 +41,8 @@ const worksans = Work_Sans({
     weight: ["100", "200", "300", "400", "500", "600", "700", "800"]
 })
 
+
+
 const InpitSeptiNopri = () => {
     useEffect(() => {
         AOS.init({

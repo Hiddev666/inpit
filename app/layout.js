@@ -13,16 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-    title: "Septi & Nopri Wedding",
-    description: "Undangan Pernikahan Digital Septi & Nopri",
+    title: "Alfenta & Angelina Wedding",
+    description: "Undangan Pernikahan Digital Alfenta & Angelina",
     openGraph: {
-        title: "Septi & Nopri Wedding",
-        description: "Undangan Pernikahan Digital Septi & Nopri",
-        url: "http://localhost:3000",
+        title: "Alfenta & Angelina Wedding",
+        description: "Undangan Pernikahan Digital Alfenta & Angelina",
+        url: "https://inpit.vercel.app/alfenta-angelina",
         type: "website",
         images: [
             {
-                url: "/img/thumbnail.jpg", // Ganti dengan URL gambar lo
+                url: "/img/thumbnail.png", // Ganti dengan URL gambar lo
                 width: 1200,
                 height: 630,
                 alt: "Thumbnail gambar",
