@@ -40,9 +40,9 @@ ${name}
 
 Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara kami.
 
-Septi Kurnia, S.Pd., Gr.
+Alfenta Egi Putra
 dengan
-Ari Nopriansah
+Angelina Alfa Reza, S.Pd.
 
 Untuk Info Detail Acara, Lokasi, dan Waktu Lebih Lengkap bisa akses link undangan online berikut :
 ${link}
@@ -52,7 +52,7 @@ Merupakan Suatu Kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Rekan-rek
 Karena keterbatasan jarak dan waktu tidak dapat mengirimkan undangan ini secara langsung, maka melalui e-invitation ini dapat menjadi pengganti undangan resmi sehingga tujuan kami tersampaikan.
 
 Hormat Kami yang berbahagia
-Septi dan Nopri
+Alfenta & Angelina
 
 Wassalamualaikum Warahmatullahi Wabarakatuh`
         navigator.clipboard.writeText(message)
@@ -68,7 +68,6 @@ Wassalamualaikum Warahmatullahi Wabarakatuh`
     return (
         <div className={`${worksans.className} flex flex-col gap-3 p-5 border-1 border-gray-200 rounded-md`}>
             <div className="flex flex-col overflow-hidden">
-                <p className="text-3xl font-semibold overflow-hidden">Septi & Nopri</p>
                 <p className="">{guests.length} Guests</p>
             </div>
             <div className="w-full bg-gray-100 flex justify-around items-center p-3 font-medium">

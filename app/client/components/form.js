@@ -20,7 +20,7 @@ const Form = (props) => {
     const postGuest = async () => {
         await axios.post(`https://api-inpit.vercel.app/api/v1/guests`, {
             guestName: guestName,
-            url: `https://inpit.vercel.app/septi-nopri?to=${guestName.replaceAll(" ", "%20")}`,
+            url: `https://inpit.vercel.app/alfenta-angelina?to=${guestName.replaceAll(" ", "%20")}`,
             invitationId: props.invitationId
         }).then((res) => {
             console.log(res.data.message)
