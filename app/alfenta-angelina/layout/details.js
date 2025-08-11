@@ -2,7 +2,8 @@ import Image from "next/image"
 import { Berkshire_Swash, Work_Sans } from "next/font/google"
 import { useState } from "react"
 import Countdown from "../components/countdown"
-import DetailCard from "../components/DetailCard"
+import DetailCard1 from "../components/DetailCard1"
+import DetailCard2 from "../components/DetailCard2"
 
 const berkshire = Berkshire_Swash({
     subsets: ['latin'],
@@ -17,16 +18,14 @@ const worksans = Work_Sans({
 const Detail = () => {
     return (
         <div className="w-full flex flex-col justify-between text-neutral-900 gap-8 overflow-hidden p-10 bg-white">
-            <DetailCard
-                image="bg-card-1.png"
+            <DetailCard1
                 time="September 21, 2025 09:30:00"
                 title="Akad Nikah"
                 date="Minggu, 21 September 2025 09:30 WIB"
                 address="Kediaman Mempelai Wanita Desa Tanjung Raja Dusun 2 No. 58, Kecamatan Muara Enim, Kabupaten Muara Enim"
                 map="/"
             />
-            <DetailCard
-                image="bg-card-2.png"
+            <DetailCard2
                 time="September 28, 2025 10:00:00"
                 title="Ngunduh Mantu"
                 date="Minggu, 28 September 2025 10:00 WIB"

@@ -12,7 +12,7 @@ const gabarito = Gabarito({
 })
 
 
-const DetailCard = (props) => {
+const DetailCard2 = (props) => {
 
     const generateCoundown = (time) => {
         var countDownDate = new Date(time).getTime();
@@ -26,7 +26,7 @@ const DetailCard = (props) => {
     }
 
     return (
-        <div className={`w-full bg-white p-6 rounded-md bg-[url(/img/alfenta-angelina/${props.image})] bg-cover bg-top h-100 flex flex-col justify-between`} data-aos="fade-up">
+        <div className={`w-full bg-white p-6 rounded-md bg-[url(/img/alfenta-angelina/bg-card-2.png)] bg-cover bg-top h-100 flex flex-col justify-between`} data-aos="fade-up">
             <div className="bg-white w-fit p-1 rounded px-2 font-medium" data-aos="flip-up" data-aos-delay="500" >
                 <p className={`text-xs ${gabarito.className}`}>{generateCoundown(props.time)}</p>
             </div>
@@ -53,4 +53,4 @@ const DetailCard = (props) => {
     )
 }
 
-export default DetailCard
+export default DetailCard2
