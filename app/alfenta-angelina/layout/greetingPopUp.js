@@ -32,7 +32,7 @@ const GreetingPopUp = (props) => {
             />
             <div className="flex flex-col gap-5">
                 <div>
-                    <h1 className={`text-5xl ${cormorant.className} font-semibold text-white overflow-hidden`}>ALFENTA<br />& ANGELINA</h1>
+                    <h1 className={`text-4xl ${cormorant.className} font-semibold text-white overflow-hidden`}>ALFENTA<br />& ANGELINA</h1>
                 </div>
                 <div className={`${gabarito.className} flex flex-col gap-3`}>
                     <div>
