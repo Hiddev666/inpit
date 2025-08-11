@@ -35,8 +35,8 @@ const AudioPlayer = () => {
 
     return (
         <div className='fixed z-200 bottom-5 right-5'>
-            <audio ref={audioRef} src="/audio/septi-nopri.mp3" preload="auto" autoPlay />
-            <Button onClick={togglePlay} size="icon" variant="outline" className='bg-[#566E51] p-2' ref={buttonRef}>
+            <audio ref={audioRef} src="/audio/alfenta-angelina.mp3" preload="auto" autoPlay />
+            <Button onClick={togglePlay} size="icon" variant="outline" className='bg-[#8F1515] p-2' ref={buttonRef}>
                 {isPlaying ? <Pause size={20} /> : <Play size={20} />}
             </Button>
         </div>

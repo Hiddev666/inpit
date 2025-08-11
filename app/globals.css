@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
-*, html {
+*,
+html {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -10,11 +11,11 @@ body {
 }
 
 #bubble-left {
-    border-radius: 0px 10px 10px 10px;
+    border-radius: 0px 7px 7px 7px;
 }
 
 #bubble-right {
-    border-radius: 10px 0px 10px 10px;
+    border-radius: 7px 0px 7px 7px;
 }
 
 /*
@@ -62,7 +63,6 @@ body {
 
     40% {
         right: 0%;
-        bottom: 2%;
     }
 
     100% {
@@ -77,7 +77,6 @@ body {
 
     40% {
         left: 0%;
-        top: 2%;
     }
 
     100% {
@@ -97,4 +96,24 @@ body {
     100% {
         top: -10%;
     }
+}
+
+/* global.css or similar */
+@layer utilities {
+  .scroll-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  .scroll-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.scroll-hidden {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
 }

@@ -13,7 +13,7 @@ const worksans = Work_Sans({
 
 const Footer = () => {
     return (
-        <div className="px-10 py-5 w-full bg-[#566E51] flex justify-between items-center">
+        <div className="px-10 py-5 w-full bg-[#8F1515] flex justify-between items-center">
             <div className="flex gap-2 items-center">
                 <p className={`${worksans.className} text-xs text-white`}>Made With &#10084; by</p>
                 <Image
