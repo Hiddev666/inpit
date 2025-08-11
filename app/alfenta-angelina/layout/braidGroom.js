@@ -23,7 +23,7 @@ const BraidGroom = () => {
 
             <BraidGroomCard
                 image="braid"
-                name="Angelina Alfa Reza"
+                name="Angelina Alfa Reza, S.Pd."
                 detail="Putri Pertama Dari Bapak M. Rasyid & Ibu Aziza"
             />
         </div>
