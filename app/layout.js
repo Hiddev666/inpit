@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-    title: "Alfenta & Angelina Wedding",
-    description: "Undangan Pernikahan Digital Alfenta & Angelina",
+    title: "Rizki & Tesa Wedding",
+    description: "Undangan Pernikahan Digital Rizki & Tesa",
     openGraph: {
-        title: "Alfenta & Angelina Wedding",
-        description: "Undangan Pernikahan Digital Alfenta & Angelina",
-        url: "https://inpit.vercel.app/alfenta-angelina",
+        title: "Rizki & Tesa Wedding",
+        description: "Undangan Pernikahan Digital Rizki & Tesa",
+        url: "https://inpit.vercel.app/rizki-tesa",
         type: "website",
         images: [
             {
