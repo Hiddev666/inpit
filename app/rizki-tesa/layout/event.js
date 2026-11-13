@@ -68,14 +68,14 @@ const EventSection = (props) => {
                     image="/img/rizki-tesa/event-detail-1.svg"
                     date="Sabtu, 12 Desember 2026 10:00 WIB"
                     address="Desa Gedung Agung LK5 (Danau Nangka) Kec. Merapi Timur Kab. Lahat"
-                    map="https://maps.app.goo.gl/wUKUr1sv3v4T4Lnb8" />
+                    map="https://maps.app.goo.gl/cd2FWmM35FWM8sCr8" />
                 <DetailCard1
                     time="December 13, 2026 10:00:00"
                     title="Resepsi"
                     image="/img/rizki-tesa/event-detail-2.svg"
                     date="Minggu, 13 Desember 2026 10:00 WIB"
                     address="Desa Gedung Agung LK5 (Danau Nangka) Kec. Merapi Timur Kab. Lahat"
-                    map="https://maps.app.goo.gl/wUKUr1sv3v4T4Lnb8" />
+                    map="https://maps.app.goo.gl/cd2FWmM35FWM8sCr8" />
             </div>
 
             <Image
