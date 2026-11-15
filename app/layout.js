@@ -12,6 +12,11 @@ const geistMono = Geist_Mono({
     subsets: ["latin"],
 });
 
+export const viewport = {
+    colorScheme: "light",
+    themeColor: "#eaeaea",
+};
+
 export const metadata = {
     title: "Rizki & Tesa Wedding",
     description: "Undangan Pernikahan Digital Rizki & Tesa",

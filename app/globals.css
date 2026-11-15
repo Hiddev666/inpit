@@ -1,9 +1,20 @@
 @import "tailwindcss";
 
+/* Force light mode regardless of the device's dark mode preference.
+   The dark variant now only activates with an explicit `.dark` class,
+   which is never added, so `dark:` utilities never apply. */
+@custom-variant dark (&:where(.dark, .dark *));
+
 *,
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+html,
+:root {
+    color-scheme: light;
+    color-scheme: only light;
 }
 
 body {

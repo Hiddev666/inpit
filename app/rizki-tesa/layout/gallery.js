@@ -25,14 +25,12 @@ const gabarito = Gabarito({
 })
 
 const images = [
-    "/img/rizki-tesa/carousel1.jpg",
-    "/img/rizki-tesa/carousel2.jpg",
-    "/img/rizki-tesa/carousel3.jpg",
-    "/img/rizki-tesa/carousel4.jpg",
-    "/img/rizki-tesa/carousel5.jpg",
-    "/img/rizki-tesa/carousel6.jpg",
-    "/img/rizki-tesa/carousel7.jpg",
-    "/img/rizki-tesa/carousel8.jpg",
+    "/img/rizki-tesa/carousel1.jpeg",
+    "/img/rizki-tesa/carousel2.jpeg",
+    "/img/rizki-tesa/carousel3.jpeg",
+    "/img/rizki-tesa/carousel4.jpeg",
+    "/img/rizki-tesa/carousel5.jpeg",
+    "/img/rizki-tesa/carousel7.jpeg",
 ]
 
 const Gallery = () => {
