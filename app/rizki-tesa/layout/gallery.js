@@ -30,6 +30,7 @@ const images = [
     "/img/rizki-tesa/carousel3.jpeg",
     "/img/rizki-tesa/carousel4.jpeg",
     "/img/rizki-tesa/carousel5.jpeg",
+    "/img/rizki-tesa/carousel6.jpeg",
     "/img/rizki-tesa/carousel7.jpeg",
 ]
 
