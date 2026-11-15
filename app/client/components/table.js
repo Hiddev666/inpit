@@ -40,9 +40,7 @@ ${name}
 
 Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami.
 
-Rizki Piliyang
-dengan
-Tesa Amelia, S.M
+Rizki Piliyang dengan Tesa Amelia, S.M
 
 Untuk Info Detail Acara, Lokasi, dan Waktu Lebih Lengkap bisa akses link undangan online berikut :
 ${link}
