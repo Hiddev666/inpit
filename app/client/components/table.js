@@ -38,11 +38,11 @@ Assalamualaikum Warahmatullahi Wabarakatuh
 Kepada Yth:
 ${name}
 
-Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara kami.
+Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami.
 
-Alfenta Egi Putra
+Rizki Piliyang
 dengan
-Angelina Alfa Reza, S.Pd.
+Tesa Amelia, S.M
 
 Untuk Info Detail Acara, Lokasi, dan Waktu Lebih Lengkap bisa akses link undangan online berikut :
 ${link}
@@ -51,8 +51,8 @@ Merupakan Suatu Kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Rekan-rek
 
 Karena keterbatasan jarak dan waktu tidak dapat mengirimkan undangan ini secara langsung, maka melalui e-invitation ini dapat menjadi pengganti undangan resmi sehingga tujuan kami tersampaikan.
 
-Hormat Kami yang berbahagia
-Alfenta & Angelina
+Salam Hangat Dari Kami,
+Rizki & Tesa
 
 Wassalamualaikum Warahmatullahi Wabarakatuh`
         navigator.clipboard.writeText(message)
